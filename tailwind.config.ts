@@ -57,11 +57,31 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        monastery: {
+          gold: "hsl(var(--monastery-gold))",
+          "deep-orange": "hsl(var(--monastery-deep-orange))",
+          crimson: "hsl(var(--monastery-crimson))",
+          earth: "hsl(var(--monastery-earth))",
+          stone: "hsl(var(--monastery-stone))",
+          sky: "hsl(var(--monastery-sky))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      backgroundImage: {
+        "gradient-himalayan": "var(--gradient-himalayan)",
+        "gradient-sunset": "var(--gradient-sunset)",
+        "gradient-prayer": "var(--gradient-prayer)",
+      },
+      boxShadow: {
+        monastery: "var(--shadow-monastery)",
+        prayer: "var(--shadow-prayer)",
+      },
+      transitionDuration: {
+        zen: "var(--transition-zen)",
       },
       keyframes: {
         "accordion-down": {

@@ -15,6 +15,9 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        monastery: "bg-gradient-himalayan text-primary-foreground hover:shadow-monastery transition-zen border-0",
+        prayer: "bg-gradient-prayer text-primary-foreground hover:shadow-prayer transition-zen",
+        zen: "bg-monastery-stone text-monastery-earth hover:bg-monastery-stone/80 transition-zen",
       },
       size: {
         default: "h-10 px-4 py-2",
