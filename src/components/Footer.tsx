@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Globe, Mail, Phone, MapPin, Facebook, Twitter, Instagram, Youtube } from "lucide-react";
+import logoIcon from "@/assets/logo-icon.png";
 
 const Footer = () => {
   return (
@@ -8,35 +9,37 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand Section */}
           <div className="lg:col-span-2">
-            <div className="flex items-center space-x-2 mb-6">
-              <div className="w-10 h-10 bg-gradient-himalayan rounded-full flex items-center justify-center">
-                <Globe className="w-6 h-6 text-white" />
-              </div>
-              <span className="text-2xl font-bold">
-                Monastery<span className="text-monastery-gold">360</span>
-              </span>
-            </div>
-            
-            <p className="text-white/80 leading-relaxed mb-6 max-w-md">
-              Digitizing and preserving the sacred heritage of Sikkim's monasteries through 
-              innovative technology and immersive experiences for cultural tourism and education.
-            </p>
-            
-            <div className="flex space-x-4">
-              <Button variant="ghost" size="sm" className="text-white hover:text-monastery-gold hover:bg-white/10">
-                <Facebook className="w-4 h-4" />
-              </Button>
-              <Button variant="ghost" size="sm" className="text-white hover:text-monastery-gold hover:bg-white/10">
-                <Twitter className="w-4 h-4" />
-              </Button>
-              <Button variant="ghost" size="sm" className="text-white hover:text-monastery-gold hover:bg-white/10">
-                <Instagram className="w-4 h-4" />
-              </Button>
-              <Button variant="ghost" size="sm" className="text-white hover:text-monastery-gold hover:bg-white/10">
-                <Youtube className="w-4 h-4" />
-              </Button>
-            </div>
-          </div>
+  <div className="flex items-center space-x-2">
+  <img
+    src={logoIcon}
+    alt="Monastery360 Logo"
+    style={{ width: 32, height: 32 }}
+  />
+  <span className="text-2xl font-bold text-white">
+    Monastery<span className="text-monastery-gold">360</span>
+  </span>
+</div>
+  
+  <p className="text-white/80 leading-relaxed mb-6 max-w-md">
+    Digitizing and preserving the sacred heritage of Sikkim's monasteries through 
+    innovative technology and immersive experiences for cultural tourism and education.
+  </p>
+  
+  <div className="flex space-x-4">
+    <Button variant="ghost" size="sm" className="text-white hover:text-monastery-gold hover:bg-white/10">
+      <Facebook className="w-4 h-4" />
+    </Button>
+    <Button variant="ghost" size="sm" className="text-white hover:text-monastery-gold hover:bg-white/10">
+      <Twitter className="w-4 h-4" />
+    </Button>
+    <Button variant="ghost" size="sm" className="text-white hover:text-monastery-gold hover:bg-white/10">
+      <Instagram className="w-4 h-4" />
+    </Button>
+    <Button variant="ghost" size="sm" className="text-white hover:text-monastery-gold hover:bg-white/10">
+      <Youtube className="w-4 h-4" />
+    </Button>
+  </div>
+</div>
 
           {/* Quick Links */}
           <div>
