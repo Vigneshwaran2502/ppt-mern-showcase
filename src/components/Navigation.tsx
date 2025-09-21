@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Menu, Search, Globe, Calendar, Map, Archive } from "lucide-react";
 import { useState } from "react";
-import logoIcon from "@/assets/logo-icon.png";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,8 +11,8 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-himalayan rounded-full flex items-center justify-center p-1">
-              <img src={logoIcon} alt="Monastery360 Logo" className="w-full h-full object-contain" />
+            <div className="w-8 h-8 bg-gradient-himalayan rounded-full flex items-center justify-center">
+              <Globe className="w-5 h-5 text-white" />
             </div>
             <span className="text-xl font-bold text-monastery-earth">
               Monastery<span className="text-monastery-gold">360</span>
