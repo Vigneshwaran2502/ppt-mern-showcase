@@ -3,7 +3,21 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Search, BookOpen, FileText, Image, Download, Eye } from "lucide-react";
 import { useState } from "react";
-import manuscriptsImage from "@/assets/manuscripts.jpg";
+import firstmonImage from "@/assets/firstmon.jpg";
+import secmonImage from "@/assets/secmon.jpg";
+import thirdmon from "@/assets/thirdmon.jpg";
+import fourmon from "@/assets/fourmon.jpg";
+import fifthmon from "@/assets/fifthmon.jpg";
+import sixthmon from "@/assets/sixthmon.jpg";
+import seventhmon from "@/assets/sevenmon.jpg";
+import eightmon from "@/assets/eightmon.jpg";
+import ninth from "@/assets/ninth.jpg";
+import tenth from "@/assets/tenth.jpg";
+
+
+
+
+
 
 const DigitalArchives = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -11,100 +25,100 @@ const DigitalArchives = () => {
   const archives = [
     {
       id: 1,
-      title: "Dubdi Monastery: The Oldest Monastery in Sikkim",
+      title: "Dubdi Monastery",
       type: "Manuscript",
       monastery: "Dubdi Monastery",
-      date: "1701 ",
+      date: "15th Century",
       description: "Established in 1701, Dubdi is one of the popular monasteries in Sikkim. Belonging to the Nyingma sect of Tibetan Buddhism, this monastery enjoys an amazing hilltop location. A treacherous path and dense alpine forest guard the pretty monastery, which must be visited by every traveller looking for popular attractions in Sikkim. Perched atop 6,900 meters, this beautiful creation bears the statues of three lamas. The monastery's two-story stone architecture is rather delicate, and a bell-shaped structure atop the roof is remarkable for its positioning, known as Gyaltshen. One of the most famous monasteries in Sikkim, this place is a must-visit",
-      image: manuscriptsImage,
+      image: firstmonImage,
       pages: 156,
       downloads: 89
     },
     {
       id: 2,
-      title: "Enchey Monastery: A Spiritual Retreat in the Hills",
+      title: "Enchey Monaster",
       type: "Historical Document",
       monastery: " Enchey Monastery",
-      date: "1909",
+      date: "1705",
       description: "Dating back to 200 years, the Enchey Monastery is located 3 km northeast of Gangtok. Enchey translates to solitary, which is aptly justified by its location. The monastery belongs to the Nyingma of Vajrayana Buddhism. Nature’s grandeur truly embellishes the location. Special prayers are held at the monastery during the lunar month every year, which, according to the Tibetan calendar, takes place in January and February. Furthermore, monasteries in the Himalayas offer serene scenic views like no other place, making them a sight for sore eyes.",
-      image: manuscriptsImage,
+      image: secmonImage,
       pages: 210,
       downloads: 95
     },
     {
       id: 3,
-      title: "Kartok Monastery: A Spiritual Gem by the Lake",
+      title: "Kartok Monastery",
       type: "Artwork",
       monastery: "Kartok Monastery",
-      date: "1642",
+      date: "18th Century",
       description: "Located opposite Kartok Lake, the Kartok Monastery is the pride of Yuksom village. Hundreds of travellers flock to marvel at this beauty in the northeast, which bears a red colour. Yellow and golden motifs depicting Tibetan design are all over the monastery's exteriors. One of the popular sites to visit in Yuksom, the Kartok, forms a great combo with Dubdi and Ngadak Monastery. Slow chants, fluttering prayer flags, and the beautiful Lake Kartok nearby make it a superb spectacle for nature lovers. This is the best monastery in Sikkim for you if you love your temples located by gorgeous water bodies.",
-      image: manuscriptsImage,
+      image: thirdmon,
       pages: 180,
       downloads: 88
     },
     {
       id: 4,
-      title: "Lingdum Monastery: A Serene Retreat in East Sikkim",
+      title: "Lingdum Monastery",
       type: "Artwork",
       monastery: "Lingdum Monastery",
-      date: "1992",
+      date: "18th Century",
       description: "Lingdum Monastery lies in East Sikkim, some 20 km from Gangtok. It has been a preferred location for Bollywood filmmakers, thus making it one of the most popular monasteries in Sikkim. Lingdum, also known as Ranka Monastery, is the most recent monastery, completed in 1998. The monastery is the perfect place to spend moments of solace in the company of divine intervention. Surrounded by forested mountains, the monastery is a photographer's delight among other monasteries in Sikkim.",
-      image: manuscriptsImage,
+      image: fourmon,
       pages: 220,
       downloads: 125
     },
     {
       id: 5,
-      title: "Pemayangtse Monastery: A Spiritual Haven Amidst Scenic Beauty",
+      title: "Pemayangtse Monastery",
       type: "Artwork",
       monastery: "Pemayangtse Monastery",
-      date: "1705",
+      date: "18th Century",
       description: "The 300-year-old monastery makes the perfect place to do some soul-searching and indulge in prayers and meditation. Rich architecture, stunning mountains in the backdrop, and friendly Buddhist followers inside the temple would make your trip to one of the oldest monasteries in Sikkim worthwhile.",
-      image: manuscriptsImage,
+      image:fifthmon ,
       pages: 165,
       downloads: 280
     },
     {
       id: 6,
-      title: "Phodong Monastery: A Treasure Trove of Ancient Art and Culture",
+      title: "Phodong Monastery",
       type: "Artwork",
       monastery: "Phodong Monastery",
-      date: "1740",
+      date: "18th Century",
       description: "Among many other monasteries that dot the pious land of Sikkim, Phodong Monastery, belonging to the Kagyupa Sect in Buddhism, is a popular attraction and a major monastery in Sikkim. Gyurmed Namgyal of Kagyupa Sect founded the monastery at 4,500 feet above sea level. The monastery is well adorned with paintings, murals, and holy scriptures from ancient times, making it one of the best monasteries in North Sikkim.",
-      image: manuscriptsImage,
+      image: sixthmon,
       pages: 300,
       downloads: 250
     },
     {
       id: 7,
-      title: "Ralang Monastery :  A Spiritual and Architectural Marvel",
+      title: "Ralang Monastery",
       type: "Artwork",
       monastery: "Ralang Monastery",
-      date: "1995",
+      date: "18th Century",
       description: "It is here at the Ralang Monastery that you can savour the best of Tibetan architecture. The biggest monastery in Sikkim is a wonderful assimilation of colours, traditions, and incredible Tibetan architecture. Located in the wonderful surroundings of Ravangla, the monastery is a popular site for Buddhists from all over the world. A new monastery was built in 1995 at a distance of 6 km from Ravangle.",
-      image: manuscriptsImage,
+      image: seventhmon,
       pages: 250,
       downloads: 260
     },
     {
       id: 8,
-      title: " Rumtek Monastery: A Majestic Blend of Spirituality and Art",
+      title: " Rumtek Monastery",
       type: "Artwork",
       monastery: "Rumtek Monastery",
-      date: "1996",
+      date: "18th Century",
       description: "This monastery is located in Rumtek, a place which is 23 km from Gangtok town and on the opposite mountain. So if you visit Rumtek, there are vantage points from where you get amazing sights of the whole Gangtok town on the opposite hill. However from the gate at the base, it requires an uphill walk (about half a kilometer) to reach up to the main monastery. One of the largest monasteries in Sikkim, Rumtek, belongs to the Kargyu sect and was built by Gyalwa Karmapa in the 1960s.",
-      image: manuscriptsImage,
+      image: eightmon,
       pages: 350,
       downloads: 250
     },
     {
       id: 9,
-      title: "Tashiding Monastery:Abode of Sacred Chortens and Spiritual Purity",
+      title: "Tashiding Monastery: Adorned By Nature From All Sides",
       type: "Artwork",
       monastery: "Tashiding Monastery",
-      date: "1717",
+      date: "18th Century",
       description: "Snow-capped peaks and rustic charm prettify Tashiding Monastery. Popular among travellers from all over the world, this Sikkim Buddhist monastery truly reflects old-world charm. A pot of holy water is kept inside the temple, considered auspicious and used only during festivities. With plenty of fluttering prayer flags and holy chants, the temple complex is a perfect place to spend some great moments in the lap of nature. A day at one of the oldest and holiest monasteries in Sikkim will be perfect. The monastery houses close to 60-70 monks.",
-      image: manuscriptsImage,
+      image: ninth,
       pages: 278,
       downloads: 110
     },
@@ -113,9 +127,9 @@ const DigitalArchives = () => {
       title: "Tsuklakhang Palace: Portrayal Of Ancient Artwork",
       type: "Artwork",
       monastery: "Tsuklakhang Palace",
-      date: "1898",
+      date: "18th Century",
       description: "Sikkim monasteries are like no other! This one came up towards the end of the 19th century and is one of the eminent structures in Sikkim. Popularly known as Tsuklakhang Royal Chapel and Monastery, it is a popular religious spot for Buddhists from all around the world. The monastery is also important from a cultural point of view as it promotes and preserves the cultural heritage of the northeastern state. A trip to Tsuklakhang Monastery would also bring you closer to our nation’s glorious tradition. Losar, the Tibetan New Year festival, is celebrated with much enthusiasm here.",
-      image: manuscriptsImage,
+      image: tenth,
       pages: 310,
       downloads: 250
     }
@@ -202,13 +216,12 @@ const DigitalArchives = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                   
                   {/* Type Badge */}
-                  <div className={`absolute top-4 left-4 px-3 py-1 rounded-full border text-xs font-medium flex items-center space-x-1 ${getTypeColor(archive.type)}`}>
+                  <div className={"absolute top-4 left-4 px-3 py-1 rounded-full border text-xs font-medium flex items-center space-x-1 ${getTypeColor(archive.type)}"}>
                     {getTypeIcon(archive.type)}
                     <span>{archive.type}</span>
                   </div>
-
                   {/* Stats */}
-                  <div className="absolute bottom-4 right-4 flex space-x-2">
+                  < div className="absolute bottom-4 right-4 flex space-x-2">
                     <div className="bg-black/50 backdrop-blur-sm rounded-full px-2 py-1 flex items-center space-x-1">
                       <Eye className="w-3 h-3 text-white" />
                       <span className="text-white text-xs">{archive.pages} pages</span>
