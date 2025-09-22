@@ -1,18 +1,23 @@
 import { Button } from "@/components/ui/button";
 import { MapPin, Camera, Calendar, Search } from "lucide-react";
-import monasteryHero from "@/assets/monastery-hero.jpg";
+import monasteryHero from "../assets/monastery-hero.mp4"; // <-- updated path
 
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${monasteryHero})` }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/50" />
-      </div>
-      
+      {/* Background Video */}
+      <video
+        className="absolute inset-0 w-full h-full object-cover"
+        src={monasteryHero}
+        autoPlay
+        loop
+        muted
+        playsInline
+        style={{ zIndex: 0 }}
+      />
+      {/* Optional: Overlay for better text visibility */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/50" />
+
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-6xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 drop-shadow-lg">
