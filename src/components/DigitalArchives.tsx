@@ -28,96 +28,96 @@ const DigitalArchives = () => {
       date: "1705",
       description: "Dating back to 200 years, the Enchey Monastery is located 3 km northeast of Gangtok. Enchey translates to solitary, which is aptly justified by its location. The monastery belongs to the Nyingma of Vajrayana Buddhism. Nature’s grandeur truly embellishes the location. Special prayers are held at the monastery during the lunar month every year, which, according to the Tibetan calendar, takes place in January and February. Furthermore, monasteries in the Himalayas offer serene scenic views like no other place, making them a sight for sore eyes.",
       image: manuscriptsImage,
-      pages: 34,
-      downloads: 67
+      pages: 210,
+      downloads: 95
     },
     {
       id: 3,
       title: "Kartok Monastery",
       type: "Artwork",
-      monastery: "Tashiding",
+      monastery: "Kartok Monastery",
       date: "18th Century",
       description: "Located opposite Kartok Lake, the Kartok Monastery is the pride of Yuksom village. Hundreds of travellers flock to marvel at this beauty in the northeast, which bears a red colour. Yellow and golden motifs depicting Tibetan design are all over the monastery's exteriors. One of the popular sites to visit in Yuksom, the Kartok, forms a great combo with Dubdi and Ngadak Monastery. Slow chants, fluttering prayer flags, and the beautiful Lake Kartok nearby make it a superb spectacle for nature lovers. This is the best monastery in Sikkim for you if you love your temples located by gorgeous water bodies.",
       image: manuscriptsImage,
-      pages: 28,
-      downloads: 123
+      pages: 180,
+      downloads: 88
     },
     {
       id: 4,
       title: "Lingdum Monastery",
       type: "Artwork",
-      monastery: "Tashiding",
+      monastery: "Lingdum Monastery",
       date: "18th Century",
       description: "Lingdum Monastery lies in East Sikkim, some 20 km from Gangtok. It has been a preferred location for Bollywood filmmakers, thus making it one of the most popular monasteries in Sikkim. Lingdum, also known as Ranka Monastery, is the most recent monastery, completed in 1998. The monastery is the perfect place to spend moments of solace in the company of divine intervention. Surrounded by forested mountains, the monastery is a photographer's delight among other monasteries in Sikkim.",
       image: manuscriptsImage,
-      pages: 28,
-      downloads: 123
+      pages: 220,
+      downloads: 125
     },
     {
       id: 5,
       title: "Pemayangtse Monastery",
       type: "Artwork",
-      monastery: "Tashiding",
+      monastery: "Pemayangtse Monastery",
       date: "18th Century",
       description: "The 300-year-old monastery makes the perfect place to do some soul-searching and indulge in prayers and meditation. Rich architecture, stunning mountains in the backdrop, and friendly Buddhist followers inside the temple would make your trip to one of the oldest monasteries in Sikkim worthwhile.",
       image: manuscriptsImage,
-      pages: 28,
-      downloads: 123
+      pages: 165,
+      downloads: 280
     },
     {
       id: 6,
       title: "Phodong Monastery",
       type: "Artwork",
-      monastery: "Tashiding",
+      monastery: "Phodong Monastery",
       date: "18th Century",
       description: "Among many other monasteries that dot the pious land of Sikkim, Phodong Monastery, belonging to the Kagyupa Sect in Buddhism, is a popular attraction and a major monastery in Sikkim. Gyurmed Namgyal of Kagyupa Sect founded the monastery at 4,500 feet above sea level. The monastery is well adorned with paintings, murals, and holy scriptures from ancient times, making it one of the best monasteries in North Sikkim.",
       image: manuscriptsImage,
-      pages: 28,
-      downloads: 123
+      pages: 300,
+      downloads: 250
     },
     {
       id: 7,
       title: "Ralang Monastery",
       type: "Artwork",
-      monastery: "Tashiding",
+      monastery: "Ralang Monastery",
       date: "18th Century",
       description: "It is here at the Ralang Monastery that you can savour the best of Tibetan architecture. The biggest monastery in Sikkim is a wonderful assimilation of colours, traditions, and incredible Tibetan architecture. Located in the wonderful surroundings of Ravangla, the monastery is a popular site for Buddhists from all over the world. A new monastery was built in 1995 at a distance of 6 km from Ravangle.",
       image: manuscriptsImage,
-      pages: 28,
-      downloads: 123
+      pages: 250,
+      downloads: 260
     },
     {
       id: 8,
       title: " Rumtek Monastery",
       type: "Artwork",
-      monastery: "Tashiding",
+      monastery: "Rumtek Monastery",
       date: "18th Century",
       description: "This monastery is located in Rumtek, a place which is 23 km from Gangtok town and on the opposite mountain. So if you visit Rumtek, there are vantage points from where you get amazing sights of the whole Gangtok town on the opposite hill. However from the gate at the base, it requires an uphill walk (about half a kilometer) to reach up to the main monastery. One of the largest monasteries in Sikkim, Rumtek, belongs to the Kargyu sect and was built by Gyalwa Karmapa in the 1960s.",
       image: manuscriptsImage,
-      pages: 28,
-      downloads: 123
+      pages: 350,
+      downloads: 250
     },
     {
       id: 9,
       title: "Tashiding Monastery: Adorned By Nature From All Sides",
       type: "Artwork",
-      monastery: "Tashiding",
+      monastery: "Tashiding Monastery",
       date: "18th Century",
       description: "Snow-capped peaks and rustic charm prettify Tashiding Monastery. Popular among travellers from all over the world, this Sikkim Buddhist monastery truly reflects old-world charm. A pot of holy water is kept inside the temple, considered auspicious and used only during festivities. With plenty of fluttering prayer flags and holy chants, the temple complex is a perfect place to spend some great moments in the lap of nature. A day at one of the oldest and holiest monasteries in Sikkim will be perfect. The monastery houses close to 60-70 monks.",
       image: manuscriptsImage,
-      pages: 28,
-      downloads: 123
+      pages: 278,
+      downloads: 110
     },
     {
       id: 10,
       title: "Tsuklakhang Palace: Portrayal Of Ancient Artwork",
       type: "Artwork",
-      monastery: "Tashiding",
+      monastery: "Tsuklakhang Palace",
       date: "18th Century",
       description: "Sikkim monasteries are like no other! This one came up towards the end of the 19th century and is one of the eminent structures in Sikkim. Popularly known as Tsuklakhang Royal Chapel and Monastery, it is a popular religious spot for Buddhists from all around the world. The monastery is also important from a cultural point of view as it promotes and preserves the cultural heritage of the northeastern state. A trip to Tsuklakhang Monastery would also bring you closer to our nation’s glorious tradition. Losar, the Tibetan New Year festival, is celebrated with much enthusiasm here.",
       image: manuscriptsImage,
-      pages: 28,
-      downloads: 123
+      pages: 310,
+      downloads: 250
     }
   ];
 
