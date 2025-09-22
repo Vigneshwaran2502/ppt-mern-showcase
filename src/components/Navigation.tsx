@@ -11,21 +11,19 @@ const Navigation = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-monastery-stone/30">
       <div className="container mx-auto px-6 py-4">
+     <div className="flex items-center space-x-2">
+  <div className="w-10 h-10 bg-gradient-himalayan rounded-full flex items-center justify-center overflow-hidden">
+    <img
+      src={logoIcon}
+      alt="Monastery360 Logo"
+      className="w-full h-full object-cover"
+    />
+  </div>
+  <span className="text-xl font-bold text-monastery-earth">
+    Monastery<span className="text-monastery-gold">360</span>
+  </span>
+</div>
         <div className="flex items-center justify-between">
-          {/* Logo */}
-      
-          {/* Logo */}
-          <div className="w-10 h-10 bg-gradient-himalayan rounded-full flex items-center justify-center overflow-hidden">
-            <img
-              src={logoIcon}
-              alt="Monastery360 Logo"
-              className="w-full h-full object-cover"
-              
-            />
-          </div>
-          <span className="text-xl font-bold text-monastery-earth">
-              Monastery<span className="text-monastery-gold">360</span>
-            </span>
 
            
         
